@@ -1,0 +1,14 @@
+{
+  "name": "node-sc",
+  "version": "0.2.0",
+  "main": "index.js",
+  "scripts": {
+    "arrow": "node index_arrow.js",
+    "json": "node index_json.js"
+  },
+  "dependencies": {
+    "apache-arrow": "^13.0.0",
+    "dotenv": "^16.3.1",
+    "superchain": "../"
+  }
+}
